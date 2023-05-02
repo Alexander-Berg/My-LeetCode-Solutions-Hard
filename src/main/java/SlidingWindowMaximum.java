@@ -1,7 +1,7 @@
 import java.util.PriorityQueue;
 
 public class SlidingWindowMaximum {
-    class Solution {
+    static class Solution {
         static class Pair implements Comparable<Pair> {
             int val;
             int idx;

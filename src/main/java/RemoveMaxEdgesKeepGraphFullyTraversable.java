@@ -1,4 +1,8 @@
 public class RemoveMaxEdgesKeepGraphFullyTraversable {
+    public int maxNumEdgesToRemove(int n3, int[][] edges3) {
+        return n3;
+    }
+
     class Solution {
         public int maxNumEdgesToRemove(int n, int[][] edges) {
             // Different objects for Alice and Bob.

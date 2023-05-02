@@ -2,7 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FindMedianDataStream {
-    class MedianFinder {
+
+
+    static class MedianFinder {
+        //Your MedianFinder object will be instantiated and called as such:
+       // MedianFinder obj = new MedianFinder();
+        //obj.addNum(Num);
+       // double param_2 = obj.findMedian();
         List<Integer> list;
         public MedianFinder() {
             this.list = new ArrayList<Integer>();
@@ -27,17 +33,7 @@ public class FindMedianDataStream {
         }
     }
 
-/**
- * Your MedianFinder object will be instantiated and called as such:
- * MedianFinder obj = new MedianFinder();
- * obj.addNum(num);
- * double param_2 = obj.findMedian();
- */
 
-/**
- * Your MedianFinder object will be instantiated and called as such:
- * MedianFinder obj = new MedianFinder();
- * obj.addNum(num);
- * double param_2 = obj.findMedian();
- */
+
+
 }

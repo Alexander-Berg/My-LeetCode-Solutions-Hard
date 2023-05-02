@@ -1,7 +1,7 @@
 public class BinaryTreeMaximumPathSum {
 
      //Definition for a binary tree node.
-      public class TreeNode {
+      public static class TreeNode {
          int val;
          TreeNode left;
          TreeNode right;
@@ -14,7 +14,7 @@ public class BinaryTreeMaximumPathSum {
          }
       }
 
-    class Solution
+    static class Solution
     {
         static int res=Integer.MIN_VALUE;
         static int helper(TreeNode root)

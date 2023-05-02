@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WordSearch {
-    class Solution {
+    static class Solution {
         public List<String> findWords(char[][] board, String[] words) {
             List<String> res = new ArrayList<>();
             TrieNode root = buildTrie(words);

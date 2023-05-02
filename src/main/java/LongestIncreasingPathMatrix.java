@@ -1,5 +1,5 @@
 public class LongestIncreasingPathMatrix {
-    class Solution {
+    static class Solution {
         public int longestIncreasingPath(int[][] matrix) {
             Integer[][] cache = new Integer[matrix.length][matrix[0].length];
             int longest = 0;

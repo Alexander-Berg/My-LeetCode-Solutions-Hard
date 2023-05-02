@@ -1,5 +1,5 @@
 public class MaxPointsOnLine {
-    class Solution {
+    static class Solution {
         public int maxPoints(int[][] p) {
             int n = p.length;
             if(n <=2) return n;
